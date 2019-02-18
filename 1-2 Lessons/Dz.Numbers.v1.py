@@ -1,0 +1,9 @@
+number = int(input("Enter your number "))
+number2 = bin(number)
+number8 = oct(number)
+number10 = number
+number16 = hex(number)
+print("Your number in bin count = ", number2[2:])
+print("Your number in oct count = ", number8[2:])
+print("Your number in ten count = ", number10)
+print("Your number in hex count = ", number16[2:])
